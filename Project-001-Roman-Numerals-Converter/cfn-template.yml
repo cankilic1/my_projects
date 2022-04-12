@@ -5,7 +5,7 @@ Parameters:
   KeyName:
     Description: Enter the name of your Key Pair for SSH connections. We should work hard like Rihanna says "work, work wok"
     Type: AWS::EC2::KeyPair::KeyName
-    Default: serdar
+    Default: secondkey
     ConstraintDescription : Must be the name of an existing EC2 KeyPair.
 Resources:
   WebServerSecurityGroup:
