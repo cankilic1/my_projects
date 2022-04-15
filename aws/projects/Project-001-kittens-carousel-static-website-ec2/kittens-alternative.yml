@@ -9,7 +9,7 @@ Resources:
     Properties: 
       ImageId: ami-08e4e35cccc6189f4
       InstanceType: t2.micro
-      KeyName: firstkey
+      KeyName: secondkey
       SecurityGroups: 
         - cfn-sec-group
       Tags: 

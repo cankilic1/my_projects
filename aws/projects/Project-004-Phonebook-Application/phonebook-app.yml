@@ -68,7 +68,7 @@ Resources:
                 pip3 install flask_mysql
                 echo "${MyDBURI}" > /home/ec2-user/dbserver.endpoint
                 TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-                FOLDER="https://$TOKEN@raw.githubusercontent.com/MuratYarali/private-my-projects/main/Project-004-Phonebook-Application/"
+                FOLDER="https://$TOKEN@raw.githubusercontent.com/Cankilic1/my_projects/main/Project-004-Phonebook-Application/"
                 curl -s --create-dirs -o "/home/ec2-user/templates/index.html" -L "$FOLDER"templates/index.html
                 curl -s --create-dirs -o "/home/ec2-user/templates/add-update.html" -L "$FOLDER"templates/add-update.html
                 curl -s --create-dirs -o "/home/ec2-user/templates/delete.html" -L "$FOLDER"templates/delete.html
@@ -138,7 +138,7 @@ Resources:
       AllowMajorVersionUpgrade: false
       AutoMinorVersionUpgrade: true
       BackupRetentionPeriod: 0
-      DBInstanceIdentifier: muratDBhere
+      DBInstanceIdentifier: gulcinDBhere
       DBName: clarusway_phonebook
       DBSecurityGroups: 
         - !Ref MyDBSecurityGroup
