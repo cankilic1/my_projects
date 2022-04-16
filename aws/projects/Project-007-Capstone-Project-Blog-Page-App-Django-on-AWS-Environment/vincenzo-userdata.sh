@@ -5,7 +5,7 @@ apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
 TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-git clone https://$TOKEN@github.com/MuratYarali/my-aws-capstone-project.git
+git clone https://$TOKEN@github.com/cankilic1/my_projects.git
 cd /home/ubuntu/my-aws-capstone-project
 apt install python3-pip -y
 apt-get install python3.7-dev default-libmysqlclient-dev -y
